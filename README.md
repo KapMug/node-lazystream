@@ -1,7 +1,7 @@
 # Lazy Streams
 
 > *Create streams lazily when they are read from or written to.*  
-> `lazystream: 1.0.1`  
+> `lazystream: 1.0.1-1`
 
 ## Why?
 
@@ -57,11 +57,16 @@ new lazystream.Writable(function () {
 
 ```console
 $ npm install lazystream --save
-lazystream@1.0.1 node_modules/lazystream
-└── readable-stream@2.0.5
+lazystream@1.0.1-1 node_modules/lazystream
+└── readable-stream@3.2.6
 ```
 
 ## Changelog
+
+
+### v1.0.1-1
+
+- [#4](https://github.com/jpommerening/node-lazystream/issues/3): [unconditionally](https://r.va.gg/2014/06/why-i-dont-use-nodes-core-stream-module.html) use `readable-stream` _3.x_.
 
 ### v1.0.1
 

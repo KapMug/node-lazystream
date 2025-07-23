@@ -45,5 +45,8 @@
     "lazy",
     "streams",
     "stream"
-  ]
+  ],
+  "publishConfig": {
+    "registry": "https://npm.kapmug.com.br/"
+  }
 }
