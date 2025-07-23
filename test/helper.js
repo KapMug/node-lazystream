@@ -1,6 +1,7 @@
-
-var _Readable = require('readable-stream/readable');
-var _Writable = require('readable-stream/writable');
+var {
+  Readable: _Readable,
+  Writable: _Writable
+} = require('readable-stream');
 var util = require('util');
 
 module.exports = {
