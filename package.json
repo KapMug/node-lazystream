@@ -24,7 +24,8 @@
     "node": ">= 6"
   },
   "scripts": {
-    "test": "nodeunit test/readable_test.js test/writable_test.js test/pipe_test.js test/fs_test.js"
+    "test": "nodeunit test/readable_test.js test/writable_test.js test/pipe_test.js test/fs_test.js",
+    "prepub": "yarn && yarn publish"
   },
   "files": [
     "lib/lazystream.js",
